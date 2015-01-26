@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Minesweeper::VERSION
   spec.authors       = ["Michael Alexander"]
   spec.email         = ["alexandermw@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Minesweeper on the command line in Ruby, TDD-ed.}
+  spec.description   = %q{Tests in Rspec}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -19,5 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", "~> 10.0"  
+  spec.add_development_dependency "rspec", "~> 3.1.0"
+  spec.add_development_dependency "guard", "~> 4.5.0"
 end
